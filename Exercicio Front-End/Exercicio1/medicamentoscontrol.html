@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Medicamentos controlados</title>
+    <link rel=stylesheet href=./css/style.css>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"><img src="img/drogasil-logo.png" width="140" height="40" ></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Página Inicial</a>
+            </li>
+            <a class="nav-link" href="#">Medicamentos Controlados </a>        
+              </div>
+          </ul>
+      </nav>
+    </header>
+
+  <body>
+    <main class="container">
+      <div class="col-md-3"> </div>
+        <div class="titulo"><h4> Solicitação para medicamentos controlados</h4></div>
+      <form>
+        <div class="form-group row col-md-7">
+          <div class="form-group">
+            <label for="inputEmail4">CRM do médico</label>
+            <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+          </div>
+          <div class="form-group">
+            <label for="inputPassword4">Nome do médico</label>
+            <input type="password" class="form-control" id="inputPassword4" placeholder="Senha">
+          </div>
+        </div>
+        <div class="form-group row col-md-7">
+          <div class="form-group">
+          <label for="dtaReceita">Data da receita</label>
+          <input type="text" class="form-control" id="inputData" placeholder="DD/MM/AAAA">
+</div>
+          <div class="col-4">
+          <label for="inputqtd">Quantidade de caixas</label>
+          <input type="text" class="form-control" id="inputqtd" placeholder="Quantidade">
+        </div>
+        <div class="form-group row">
+          <div class="form-group">
+            <label for="inputCity">Nome do paciente</label>
+            <input type="text" class="form-control" id="inputNome">
+          </div>
+          <div class="form-group">
+            <label for="inputCEP">CPF do paciente</label>
+            <input type="text" class="form-control" id="inputCPF">
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="form-group">
+            <label for="inputDtaNasc">Data de nascimento</label>
+            <input type="text" class="form-control" id="inputDataNasc">
+          </div>
+        </div>
+        <div class="form-row">
+        <div class="form-group">
+          <label for="inputSexo">Sexo</label>
+
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="sexofem" id="exampleRadios1" value="opcao1" checked>
+          <label class="form-check-label" for="exampleRadios1">
+            Feminino
+          </label>
+        </div>
+        <div class="form-group">
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="sexomasc" id="exampleRadios2" value="opcao2">
+          <label class="form-check-label" for="exampleRadios2">
+            Masculino
+          </label>
+        </div>
+        <div class="p-2"></div>
+          <label><h5>Tipos de Envio</h5></label>
+          <div class="form-group">
+            <label for="exampleFormControlFile1">Anexar a receita abaixo:</label>
+            <input type="file" class="form-control-file" id="exampleFormControlFile1">
+          </div>
+            <div class="form-row align-items-center">
+              <div class="col-auto my-1">
+                <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">Preferência</label>
+                <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                  <option selected>Escolher uma opção :</option>
+                  <option value="1">WhatsApp</option>
+                  <option value="2">Email</option>
+                </select>
+              </div>
+              <div class="col-auto my-1">
+                <div class="custom-control custom-checkbox mr-sm-2">
+                  <input type="checkbox" class="custom-control-input" id="customControlAutosizing">
+                  <label class="custom-control-label" for="customControlAutosizing">Lembrar preferências</label>
+                </div>
+
+            </div>
+        </form>
+        <button type="submit" class="btn btn-danger">Entrar</button>
+
+
+
+
+
+
+
+
+</main>
+
+
+
+
+
+</body>
+</html>
